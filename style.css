@@ -1,0 +1,220 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+#top{
+    flex-direction: row;
+    display: flex;
+    justify-content :space-between;
+    padding-top: 0;
+}
+
+#Navbar li {
+    display: inline;
+   padding-left: 30px;
+   padding-right: 30px;
+   list-style-type: none;
+text-decoration: none;
+}
+#logo{
+    padding-top: 20px;
+}
+#login{
+    color: #242F9B;
+}
+.freeTrial{
+    padding: 10px;
+    border: solid #4B7BE5 .5px;
+    border-radius: 10px;
+    width: 200px;
+    background-image: linear-gradient(to right, #242F9B , #0096FF);
+    color: white;
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+   
+   
+
+}
+#ad{
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 30px;
+    margin: 5vw 2.5vw 2.5vw
+}
+#line1{
+    color: #4f516b;
+    font-size: 3vw;
+    margin: 1.5vw;
+}
+#line2{
+    font-size: 3vw;
+    background: linear-gradient(93.22deg,#303abb 1.03%,#3ca5c2 97.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+    margin-bottom: 5px;
+    margin-top: 8px;
+    margin-left: 1.5vw;
+    width: 100%;
+}
+.backg{
+    position: absolute;
+    padding-top: 0;
+    top: 10%;
+    height: 100%;
+    right: 0;
+    content: "";
+    width: 20vw;
+    background: linear-gradient(180deg,#444bab,rgba(99,167,211,.266) 73.44%,rgba(110,200,225,0));
+    z-index: 0;
+}
+.form{
+    padding: 2vw;
+    background: #fff;
+    border: 1px solid rgba(68,71,88,.22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    font-family: Poppins!important;
+    z-index: 2;
+    position: relative;
+    right: 6%;
+    top: 13%;
+   
+}
+.inputs{
+   font-size: 150%;
+   padding-top: 6%;
+   margin-top: 6%;
+  border-radius: 5px;
+ padding: 16.5px 14px;
+}
+
+
+.form-header2{
+    margin-top: 1vh;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 1vh;
+    color: #4f516b;
+    font-weight: 600;
+    text-align: center;
+}
+.freeLearning{
+    font-size: 20px;
+    padding: 20px;
+    border: solid #4B7BE5 .5px;
+    border-radius: 10px;
+    width: 320px;
+    background-image: linear-gradient(to right, #242F9B , #0096FF);
+    color: white;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+#explore-des{
+    text-align: center;
+    margin-top: 1vh;
+    width:50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+.card-with-course{
+    border: solid #d9d9d9 0.5px ;
+    border-radius: 10px;
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: flex-start;
+    margin: 1.5vw;
+    text-align: center;
+
+
+}
+.Course-name{
+    display: flex;
+    margin: 3vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 1vh;
+    color: #4f516b;
+    font-weight: 600;
+    justify-content: flex-start;
+}
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw;
+    justify-content:space-evenly;
+}
+.Know-more{
+    /* font-size : 25px;
+    padding-bottom: 2vw;
+    text-align: start;
+    padding-left: 1vw; */
+    
+    font-size: 1.5vw;
+    background-color: #fff;
+    border: none;
+    padding-bottom:2vw;
+
+    padding-left: 1vw;
+    color: #444bab;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.course-des{
+    color: #616161;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    padding: 1vw;
+    margin-bottom: 5vw;
+}
+.Impact{
+    display : flex;
+    justify-content: center;
+    color: #444bab;
+}
+.Outcome-ad{
+    font-size:2.5vw;
+    display: flex;
+    justify-content: center;
+    color:  #4f516b;
+    font-family: 'Poppins', sans-serif;
+}
+.stat-num{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.number-heading{
+    background: -webkit-linear-gradient(92.69deg,#444bab 4.01%,#3ca5c2 135.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.num{
+margin: 5vw;
+font-family: 'Poppins', sans-serif;
+}
+
